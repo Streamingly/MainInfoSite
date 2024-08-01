@@ -4,6 +4,12 @@ import { memo } from "react";
 import OttHeroSlider from "@/components/slider/OttHeroSlider";
 
 // sections
+import StreamHero from "@/components/sections/StreamHero";
+import FeaturesSection from "@/components/sections/FeaturesSection";
+import CustomizerSection from "@/components/sections/CustomizerSection";
+import PluginsSection from "@/components/sections/PluginsSection";
+import InvestmentSection from "@/components/sections/InvestmentSection";
+
 import ContinueWatching from "@/components/sections/ContinueWatching";
 import TopTenMoviesToWatch from "@/components/sections/TopTenMoviesToWatch";
 import VerticalSectionSlider from "@/components/slider/VerticalSectionSlider";
@@ -16,13 +22,28 @@ import TopPicsForYou from "@/components/sections/TopPicsForYou";
 import GenreSlider from "@/components/sections/GenreSlider";
 
 import { ottVerticleLatestMovies } from "@/StaticData/data";
+import InnerPages from "@/components/slider/InnerPagesSlider";
+import LiveCustomizerSection from "@/components/sections/LiveCustomizerSection";
+import MainFeaturesSection from "@/components/sections/MainFeaturesSection";
+import PricingSection from "@/components/slider/PricingSection";
+import ResponsiveSection from "@/components/slider/ResponsiveSection";
 
 const OTT = memo(() => {
 
   return (
     <>
-      <OttHeroSlider />
-      <ContinueWatching />
+      <StreamHero />
+      <FeaturesSection />
+      <CustomizerSection />
+      <PluginsSection />
+      <InvestmentSection />
+      <InnerPages />
+      <LiveCustomizerSection />
+      <MainFeaturesSection />
+      <PricingSection />
+      <ResponsiveSection />
+
+      {/* <ContinueWatching />
       <TopTenMoviesToWatch />
       <OnlyOnStreamit />
       <VerticalSectionSlider sliderData={ottVerticleLatestMovies} />
@@ -31,7 +52,7 @@ const OTT = memo(() => {
       <TabSlider />
       <GenreSlider />
       <RecommendedForYou />
-      <TopPicsForYou />
+      <TopPicsForYou /> */}
     </>
   );
 });
