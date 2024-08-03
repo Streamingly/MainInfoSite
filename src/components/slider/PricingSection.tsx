@@ -5,6 +5,7 @@ import Image from "next/image";
 
 // img
 import pricingImage from "../../assets/images/home/pricing.webp";
+import Link from "next/link";
 
 const PricingSection: FC = memo(() => {
   return (
@@ -23,12 +24,12 @@ const PricingSection: FC = memo(() => {
                   flexible pricing plans, ensuring convenience.
                 </p>
               </div>
-              <a
-                href="https://templates.iqonic.design/streamit/html/frontend/pricing-plan.html"
+              <Link
+                href="/extra/pricing-plan"
                 className="btn btn-primary fw-500"
               >
                 Get It Now
-              </a>
+              </Link>
             </div>
             <div className="col-lg-1 d-none d-lg-block"></div>
             <div className="col-lg-5 col-md-6">

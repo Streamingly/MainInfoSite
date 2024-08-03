@@ -1,3 +1,40 @@
+.title {
+  padding-bottom: 3.75rem;
+
+  .sub-title {
+    color: var(--bs-primary);
+    font-weight: $font-weight-medium;
+    font-style: italic;
+    padding-bottom: .5rem;
+    letter-spacing: 0.8px;
+    display: block;
+  }
+
+  .desc {
+    padding-top: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: .02rem;
+    text-transform: capitalize;
+    font-weight: $font-weight-medium;
+  }
+
+  h2 {
+    letter-spacing: 1.01px;
+  }
+}
+
+@media (max-width:991px) {
+  .title {
+    padding-bottom: 3.125rem;
+  }
+}
+
+@media (max-width:767px) {
+  .title {
+    padding-bottom: 1.875rem;
+  }
+}
+
 .title-box {
   margin-bottom: 3.125rem;
 }

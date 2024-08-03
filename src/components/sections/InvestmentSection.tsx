@@ -12,7 +12,6 @@ const InvestmentSection: FC = memo(() => {
   return (
     <Fragment>
       <div
-        className="bg-secondary"
         style={{
           background: `url(${bgElite}) no-repeat center center / cover`,
         }}
@@ -25,7 +24,7 @@ const InvestmentSection: FC = memo(() => {
         >
           <div className="row">
             <div className="col-12 text-center">
-              <Image src={powerElite} alt="Power Elite" width={100} height={100} />
+              <Image src={powerElite} alt="Power Elite" />
               <h3 className="mt-4">
                 This project was generously funded by the University of Oulu Innovation Center, Finland
               </h3>

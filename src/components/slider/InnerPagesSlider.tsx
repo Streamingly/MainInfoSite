@@ -47,68 +47,66 @@ const InnerPages = memo(() => {
       <div className="container-fluid px-0">
         <Swiper
           spaceBetween={30}
-          slidesPerView={5}
+          slidesPerView={4}
           loop={true}
           autoplay={{ delay: 3000 }}
-          navigation
           pagination={{ clickable: true }}
+          watchSlidesProgress={true}
+          modules={[Navigation]}
           breakpoints={{
             320: { slidesPerView: 1 },
             640: { slidesPerView: 2 },
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 4 },
-            1200: { slidesPerView: 5 }
-          }}
-          modules={[Navigation]}
-          className="swiper-general"
-        >
-          <SwiperSlide>
-            <Link href="https://templates.iqonic.design/streamit/html/frontend/about-us.html">
+            1200: { slidesPerView: 4 }
+          }} >
+          <SwiperSlide className="swiper-slide p-lg-0">
+            <Link href="/extra/about-us">
               <Image src={aboutUs} className="img-fluid" alt="inner-page" />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link href="https://templates.iqonic.design/streamit/html/frontend/blog/three-column.html">
+          <SwiperSlide className="swiper-slide p-lg-0">
+            <Link href="/blogs/grid/three-column">
               <Image src={blogGrid} className="img-fluid" alt="inner-page" />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link href="https://templates.iqonic.design/streamit/html/frontend/blog/blog-listing.html">
+          <SwiperSlide className="swiper-slide p-lg-0">
+            <Link href="/blogs">
               <Image src={blogListing} className="img-fluid" alt="inner-page" />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link href="https://templates.iqonic.design/streamit/html/frontend/shop/cart.html">
+          <SwiperSlide className="swiper-slide p-lg-0">
+            <Link href="/merchandise/cart">
               <Image src={cart} className="img-fluid" alt="inner-page" />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link href="https://templates.iqonic.design/streamit/html/frontend/cast.html">
+          <SwiperSlide className="swiper-slide p-lg-0">
+            <Link href="/cast">
               <Image src={cast} className="img-fluid" alt="inner-page" />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link href="https://templates.iqonic.design/streamit/html/frontend/contact-us.html">
+          <SwiperSlide className="swiper-slide p-lg-0">
+            <Link href="/extra/contact-us">
               <Image src={contactUs} className="img-fluid" alt="inner-page" />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link href="https://templates.iqonic.design/streamit/html/frontend/faq.html">
+          <SwiperSlide className="swiper-slide p-lg-0">
+            <Link href="/extra/faq">
               <Image src={faq} className="img-fluid" alt="inner-page" />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link href="https://templates.iqonic.design/streamit/html/frontend/geners.html">
+          <SwiperSlide className="swiper-slide p-lg-0">
+            <Link href="/genres">
               <Image src={geners} className="img-fluid" alt="inner-page" />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link href="https://templates.iqonic.design/streamit/html/frontend/pricing-plan.html">
+          <SwiperSlide className="swiper-slide p-lg-0">
+            <Link href="/extra/pricing-plan">
               <Image src={pricingPlan} className="img-fluid" alt="inner-page" />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link href="https://templates.iqonic.design/streamit/html/frontend/privacy-policy.html">
+          <SwiperSlide className="swiper-slide p-lg-0">
+            <Link href="/extra/privacy-policy">
               <Image src={privacyPolicy} className="img-fluid" alt="inner-page" />
             </Link>
           </SwiperSlide>

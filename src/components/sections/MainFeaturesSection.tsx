@@ -49,15 +49,13 @@ const MainFeaturesSection: FC = memo(() => {
           <div className="row row-cols-xl-6 row-cols-md-3 row-cols-2 justify-content-center g-4">
             {features.map((feature, index) => (
               <div className="col" key={index}>
-                <div className="d-flex align-items-center justify-content-center">
+                <div className="default-box text-center">
                   <Image
                     src={feature.src}
                     alt={feature.title}
-                    width={50} // Adjust size as needed
-                    height={50} // Adjust size as needed
-                    className="image-size-icon"
+                    className="img-fluid image-size-icon"
                   />
-                  <h6 className="fw-500 text-capitalize mb-0 ms-3">{feature.title}</h6>
+                  <h6 className="heading mb-0 fw-500 text-capitalize">{feature.title}</h6>
                 </div>
               </div>
             ))}
