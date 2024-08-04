@@ -29,8 +29,7 @@
       "./node_modules/@types"
     ],
     "types": [
-      "jquery",
-      "datatables.net"
+      "jquery"
     ],
     "plugins": [
       {
