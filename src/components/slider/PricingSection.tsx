@@ -20,8 +20,7 @@ const PricingSection: FC = memo(() => {
                   Discover our Perfect<br /> Pricing Plan for You
                 </h2>
                 <p className="mb-0 desc">
-                  Streamit simplifies streaming with a built-in Subscription Widget for<br />
-                  flexible pricing plans, ensuring convenience.
+                  We are providing upto 20 GB Data Storage and 100 GB Streaming per month until December to our first 10 customers, sign up and grab this offer! 
                 </p>
               </div>
               <Link

@@ -38,7 +38,7 @@ const OTT = memo(() => {
       <PluginsSection />
       <InvestmentSection />
       <InnerPages />
-      <LiveCustomizerSection />
+      {/* <LiveCustomizerSection /> */}
       <MainFeaturesSection />
       <PricingSection />
       <ResponsiveSection />

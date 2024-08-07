@@ -11,7 +11,7 @@ const BrandLogo = memo(() => {
         <Link className="navbar-brand text-primary" href="/">
           <img
             className="img-fluid logo"
-            src="/assets/images/logo.webp"
+            src="/assets/images/logoNavbar.png"
             loading="lazy"
             alt="streamit"
           />

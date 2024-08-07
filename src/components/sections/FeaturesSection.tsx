@@ -29,9 +29,8 @@ const FeaturesSection: FC = memo(() => {
             <div className="col-md-6">
               <div className="title text-center text-md-start">
                 <p className="mb-0 desc pt-0">
-                  Streamit boasts top-tier features, rivalling Netflix and
-                  Amazon Prime<br></br>
-                  Video, setting it apart as the ultimate HTML platform.
+                  Streamingly boasts top-tier features, experience Netflix and Amazon Prime thrill <br></br>
+                  on your own website
                 </p>
               </div>
             </div>
@@ -45,7 +44,7 @@ const FeaturesSection: FC = memo(() => {
                   className="img img-fluid w-100"
                 />
                 <h6 className="heading font-size-18 mb-0 text-center fw-500 letter-spacing-one text-capitalize">
-                  Streamit with RTL Compatibility
+                  Easy Customization of Dashboards
                 </h6>
               </div>
             </div>
@@ -57,7 +56,7 @@ const FeaturesSection: FC = memo(() => {
                   className="img-fluid w-100"
                 />
                 <h6 className="heading font-size-18 mb-0 text-center fw-500 letter-spacing-one text-capitalize">
-                  Explore Our Trailer Options
+                  HLS Media Streaming Experience
                 </h6>
               </div>
             </div>
@@ -69,7 +68,7 @@ const FeaturesSection: FC = memo(() => {
                   className="img-fluid w-100"
                 />
                 <h6 className="heading font-size-18 mb-0 text-center fw-500 letter-spacing-one text-capitalize">
-                  Rate & Review Streamit's Content
+                  Support upto 8k Resolution
                 </h6>
               </div>
             </div>
@@ -81,7 +80,7 @@ const FeaturesSection: FC = memo(() => {
                   className="img-fluid w-100"
                 />
                 <h6 className="heading font-size-18 mb-0 text-center fw-500 letter-spacing-one text-capitalize">
-                  Over 15+ Widgets Available
+                  High Bitrate to give ultimate experience
                 </h6>
               </div>
             </div>
@@ -93,7 +92,7 @@ const FeaturesSection: FC = memo(() => {
                   className="img-fluid w-100"
                 />
                 <h6 className="heading font-size-18 mb-0 text-center fw-500 letter-spacing-one text-capitalize">
-                  Diverse Movie Genres and Categories
+                  Admin Panel to Upload and Control
                 </h6>
               </div>
             </div>
@@ -105,7 +104,7 @@ const FeaturesSection: FC = memo(() => {
                   className="img-fluid w-100"
                 />
                 <h6 className="heading font-size-18 mb-0 text-center fw-500 letter-spacing-one text-capitalize">
-                  Restricted Pages or Content View
+                  Content Monitoring and analysis
                 </h6>
               </div>
             </div>

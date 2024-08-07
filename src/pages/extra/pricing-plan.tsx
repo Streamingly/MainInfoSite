@@ -26,19 +26,19 @@ const PricingPage = memo(() => {
                     <ul className="list-inline p-0">
                       <li>
                         <i className="fas fa-check text-primary"></i>
-                        <span className="font-size-18 fw-500">Ads free movies and shows</span>
+                        <span className="font-size-18 fw-500">Ads free Video Dashboards</span>
                       </li>
                       <li>
-                        <i className="fas fa-times"></i>
-                        <span className="font-size-18 fw-500">Watch on TV or Laptop</span>
+                        <i className="fas fa-check text-primary"></i>
+                        <span className="font-size-18 fw-500">Dashboards Customization</span>
                       </li>
                       <li>
-                        <i className="fas fa-times"></i>
-                        <span className="font-size-18 fw-500">Streamit Special</span>
+                        <i className="fas fa-check text-primary"></i>
+                        <span className="font-size-18 fw-500">20 GB Video Storage/ Month</span>
                       </li>
                       <li>
-                        <i className="fas fa-times"></i>
-                        <span className="font-size-18 fw-500">Max video quality</span>
+                        <i className="fas fa-check text-primary"></i>
+                        <span className="font-size-18 fw-500">100 GB VOD Streaming/ Month</span>
                       </li>
                     </ul>
                   </div>
@@ -60,28 +60,28 @@ const PricingPage = memo(() => {
                 </div>
                 <div className="pricing-plan-header">
                   <h4 className="plan-name text-capitalize text-body">Premium</h4>
-                  <span className="sale-price text-decoration-line-through">$49</span>
-                  <span className="main-price text-primary">$39</span>
-                  <span className="font-size-18">/ 3 Month</span>
+                  <span className="sale-price text-decoration-line-through">$69</span>
+                  <span className="main-price text-primary">$49</span>
+                  <span className="font-size-18">/ Month</span>
                 </div>
                 <div className="pricing-details">
                   <div className="pricing-plan-description">
                     <ul className="list-inline p-0">
                       <li>
                         <i className="fas fa-check text-primary"></i>
-                        <span className="font-size-18 fw-500">Ads free movies and shows</span>
+                        <span className="font-size-18 fw-500">Ads free Video Dashboards</span>
                       </li>
                       <li>
                         <i className="fas fa-check text-primary"></i>
-                        <span className="font-size-18 fw-500">Watch on TV or Laptop</span>
+                        <span className="font-size-18 fw-500">Dashboards Customization</span>
                       </li>
                       <li>
                         <i className="fas fa-check text-primary"></i>
-                        <span className="font-size-18 fw-500">Streamit Special</span>
+                        <span className="font-size-18 fw-500">300 GB Video Storage/ Month</span>
                       </li>
                       <li>
                         <i className="fas fa-check text-primary"></i>
-                        <span className="font-size-18 fw-500">Max video quality</span>
+                        <span className="font-size-18 fw-500">2 TB VOD Streaming/ Month</span>
                       </li>
                     </ul>
                   </div>
@@ -101,26 +101,26 @@ const PricingPage = memo(() => {
                 <div className="pricing-plan-header">
                   <h4 className="plan-name text-capitalize text-body">Basic</h4>
                   <span className="main-price text-primary">$19</span>
-                  <span className="font-size-18">/ 1 Month</span>
+                  <span className="font-size-18">/ Month</span>
                 </div>
                 <div className="pricing-details">
                   <div className="pricing-plan-description">
                     <ul className="list-inline p-0">
-                      <li>
-                        <i className="fas fa-times"></i>
-                        <span className="font-size-18 fw-500">Ads free movies and shows</span>
+                    <li>
+                        <i className="fas fa-check text-primary"></i>
+                        <span className="font-size-18 fw-500">Ads free Video Dashboards</span>
                       </li>
                       <li>
                         <i className="fas fa-check text-primary"></i>
-                        <span className="font-size-18 fw-500">Watch on TV or Laptop</span>
+                        <span className="font-size-18 fw-500">Dashboards Customization</span>
                       </li>
                       <li>
                         <i className="fas fa-check text-primary"></i>
-                        <span className="font-size-18 fw-500">Streamit Special</span>
+                        <span className="font-size-18 fw-500">50 GB Video Storage/ Month</span>
                       </li>
                       <li>
                         <i className="fas fa-check text-primary"></i>
-                        <span className="font-size-18 fw-500">Max video quality</span>
+                        <span className="font-size-18 fw-500">500 GB VOD Streaming/ Month</span>
                       </li>
                     </ul>
                   </div>

@@ -18,19 +18,19 @@ const CustomizerSection: FC = memo(() => {
             <div className="title">
               <span className="sub-title">Live Customizer</span>
               <h2 className="fw-semibold text-capitalize mb-0">
-                Customize Your <span className="text-primary">Frontend</span> with Quick Styling
+                Customize Your <span className="text-primary">Client-Side</span> with Quick Styling
               </h2>
               <p className="mb-0 desc">
-                Unlock Streamit's Live Customizer, elevating content quality with easy-
+                Unlock Streamingly's Live Customizer, control your dashboar looks with admin panel at real-time 
                 <br />
-                to-use enhancements and improvements.
+                
               </p>
             </div>
             <div className="row row-cols-xl-2 row-cols-md-2 row-cols-1 justify-content-center g-4">
               <div className="col">
                 <div className="d-flex align-items-center gap-3">
                   <Image src={RtlSupportImg} className="w-35" alt="RTL Support" />
-                  <h6 className="fw-500 text-capitalize mb-0">RTL Support</h6>
+                  <h6 className="fw-500 text-capitalize mb-0">Video Actions</h6>
                 </div>
               </div>
               <div className="col">

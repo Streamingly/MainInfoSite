@@ -35,7 +35,7 @@ const features = [
 const MainFeaturesSection: FC = memo(() => {
   return (
     <Fragment>
-      <div className="section-padding pb-0">
+      <div className=" pb-0">
         <div className="container">
           <div className="title text-center">
             <span className="sub-title">Features</span>

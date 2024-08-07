@@ -22,8 +22,8 @@ const StreamHero = () => {
                 Next Generation Video Dashboards
               </i>
               <h1 className="texture-text banner-big-font text-capitalize mt-2 mb-4 gradient-text">
-                Streamingly your Easy-to-Embed <br /> Video{" "}
-                <i className="fw-normal">Dashboard </i> creator
+                Easy-to-Embed <br /> Video{" "}
+                <i className="fw-normal">Dashboards </i> creator
               </h1>
               <p className="text-capitalize text-center text-white fw-bold font-size-20 mb-2">
                 Choose and customize video dashboards from various templates
@@ -96,7 +96,7 @@ const StreamHero = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <span>No coding required</span>
+                <span>HLS Media Streaming</span>
               </li>
               <li className="text-capitalize d-inline-flex align-items-center gap-3">
                 <svg
@@ -128,7 +128,7 @@ const StreamHero = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <span>High impact visuals</span>
+                <span>High Bitrate</span>
               </li>
             </ul>
           </div>
