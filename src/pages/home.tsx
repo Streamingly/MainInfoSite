@@ -1,5 +1,4 @@
-import { memo } from "react";
-
+import { memo, useState, useEffect } from "react";
 // hero slider
 import HomeHeroSlider from "@/components/slider/HomeHeroSlider";
 
@@ -18,13 +17,33 @@ import { verticleLatestMovies } from "@/StaticData/data";
 
 import { useEnterExit } from "@/utilities/usePage";
 
+//import api service
+import { fetchVideosData } from "../services/api";
+
 const Home = memo(() => {
-  useEnterExit()
+  const [latestMovies, setLatestMovies] = useState([]);
+  const [trendingMovies, setTrendingMovies] = useState([]);
+
+  useEnterExit();
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const latest = await fetchVideosData();
+        debugger
+        setLatestMovies(latest);
+      } catch (error) {
+        console.error('Error fetching movies:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <>
-
       <HomeHeroSlider />
-      <ContinueWatching />
+      {/* <ContinueWatching movies={latestMovies}/> */}
       <UpcomingMovies />
       <LatestMovies />
       <VerticalSectionSlider sliderData={verticleLatestMovies} />

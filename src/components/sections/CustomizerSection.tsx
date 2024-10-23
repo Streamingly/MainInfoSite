@@ -3,7 +3,7 @@ import Image from "next/image";
 
 // Image assets
 import HomeDemoImg from "../../assets/images/home/home-demo.webp";
-import RtlSupportImg from "../../assets/images/home/rtl-support.svg";
+// import RtlSupportImg from "../../assets/images/home/rtl-support.svg";
 
 const CustomizerSection: FC = memo(() => {
   return (
@@ -29,7 +29,7 @@ const CustomizerSection: FC = memo(() => {
             <div className="row row-cols-xl-2 row-cols-md-2 row-cols-1 justify-content-center g-4">
               <div className="col">
                 <div className="d-flex align-items-center gap-3">
-                  <Image src={RtlSupportImg} className="w-35" alt="RTL Support" />
+                  {/* <Image src={RtlSupportImg} className="w-35" alt="RTL Support" /> */}
                   <h6 className="fw-500 text-capitalize mb-0">Video Actions</h6>
                 </div>
               </div>

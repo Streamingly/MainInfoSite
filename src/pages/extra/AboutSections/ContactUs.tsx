@@ -25,18 +25,18 @@ const ContactUs = memo(() => {
             </Col>
             <Col lg="6" md="7">
               <h2 className="text-capitalize text-start">Contact Us Here</h2>
-              <p className="mb-0 text-start">Streamit is located in Los Angeles city and you can contact us at <Link href="mailto:info@medyapim.com">hello@streamit.com</Link> for any tech-related support and assistance. We love to hear from our Streamit users.</p>
-              <Row className="mt-2 iq-rtl-direction">
+              <p className="mb-0 text-start">Streamingly is located in Oulu, Finland and you can contact us at <Link href="mailto:info@streamingly.net">info@streamingly.net</Link> for any tech-related support and assistance. We love to hear from our Streamit users.</p>
+              {/* <Row className="mt-2 iq-rtl-direction">
                 <Col md="4">
                   <div className="counter">
-                    <CountUp start={0} end={4} duration={1.5} enableScrollSpy className="counter-number" />
+                    <CountUp start={0} end={1} duration={1.5} enableScrollSpy className="counter-number" />
                   </div>
                   <div className="counter-title">Branch</div>
                 </Col>
                 <Col md="4">
                   <div className="iq-contact-list">
                     <div className="counter">
-                      <CountUp className="counter-number" start={0} end={500} duration={1.5} enableScrollSpy /> <span> +</span>
+                      <CountUp className="counter-number" start={0} end={2} duration={1.5} enableScrollSpy /> <span> +</span>
                     </div>
                     <div className="counter-title">Employee</div>
                   </div>
@@ -44,12 +44,12 @@ const ContactUs = memo(() => {
                 <Col md="4">
                   <div className="iq-contact-list">
                     <div className="counter">
-                      <CountUp className="counter-number" start={0} end={1000} duration={1.5} enableScrollSpy /> <span> +</span>
+                      <CountUp className="counter-number" start={0} end={1} duration={1.5} enableScrollSpy /> <span> +</span>
                     </div>
                     <div className="counter-title">Clients</div>
                   </div>
                 </Col>
-              </Row>
+              </Row> */}
             </Col>
           </Row>
         </Container>

@@ -56,11 +56,11 @@ const PricingPage = memo(() => {
             <Col lg="4" md="6" className="mb-3 mb-lg-0">
               <div className="pricing-plan-wrapper">
                 <div className="pricing-plan-discount bg-primary p-2 text-center">
-                  <span className="text-white">Save 20%</span>
+                  <span className="text-white">Save 30%</span>
                 </div>
                 <div className="pricing-plan-header">
                   <h4 className="plan-name text-capitalize text-body">Premium</h4>
-                  <span className="sale-price text-decoration-line-through">$69</span>
+                  <span className="sale-price text-decoration-line-through">$70</span>
                   <span className="main-price text-primary">$49</span>
                   <span className="font-size-18">/ Month</span>
                 </div>

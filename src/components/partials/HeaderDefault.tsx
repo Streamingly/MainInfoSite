@@ -147,8 +147,8 @@ const HeaderDefault = memo(() => {
                     </Nav.Item>
                     <Nav.Item as="li">
                             <Link
-                              href="/blogs/grid/three-column"
-                              className={`${location.asPath === "/blogs/grid/three-column" ? "active" : ""
+                              href="/documentation"
+                              className={`${location.asPath === "/documentation" ? "active" : ""
                                 } nav-link`}
                             >
                               {" "}
@@ -157,8 +157,8 @@ const HeaderDefault = memo(() => {
                     </Nav.Item>
                     <Nav.Item as="li">
                             <Link
-                              href="/blogs/grid/three-column"
-                              className={`${location.asPath === "/blogs/grid/three-column" ? "active" : ""
+                              href="/home"
+                              className={`${location.asPath === "/home" ? "active" : ""
                                 } nav-link`}
                             >
                               {" "}
@@ -288,13 +288,18 @@ const HeaderDefault = memo(() => {
                 >
                   <ul className="navbar-nav align-items-center ms-auto mb-2 mb-xl-0">
                   <Link
-                              href="https://app.streamingly.net/login"
-                              className={`${location.asPath === "https://app.streamingly.net/login" ? "active" : ""
-                                } nav-link`}
-                            >
-                              {" "}
-                              <button className="btn btn-primary custom-button">My Account</button>{" "}
-                            </Link>
+                    href="https://app.streamingly.net/login"
+                    className={`${location.asPath === "https://app.streamingly.net/login" ? "active" : ""} nav-link`}
+                  >
+                    <button className="btn btn-primary custom-btn">My Account</button>
+                  </Link>
+
+                  <style jsx>{`
+                    .custom-btn {
+                      color: white;
+                      font-weight: bold;
+                    }
+                  `}</style>
                   </ul>
                 </div>
               </div>
